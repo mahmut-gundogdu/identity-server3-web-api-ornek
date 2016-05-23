@@ -6,3 +6,5 @@ identity server3 frameworkunu kullanarak web abi token based auth örneği.
 2. IdentityServerWebApi2 isimli proje bir asp.net web api 2.0 ve oturum açmak için token gerektiriyor bu tokeni de  IdentityserverConsoleApp projesi sağlıyor
 
 3. TestEtmekicin isimli proje un identity serverda toketni alıp web api den istekte bulunuyor. Bu 3. proje olmasa da olurdu postman ile de test yapabilirdik 
+
+Düzenleme 1: TestEtmekiçin projesine Token ile ve token + username+password ile örnek loginleri eklendi.
