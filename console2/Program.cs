@@ -12,8 +12,13 @@ namespace console2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Login Without user");
             var token = GetClientToken();
             CallApi(token);
+            Console.WriteLine("Login With user");
+            var token2=GetUserToken();
+            CallApi(token2);
+
             Console.ReadLine();
         }
 
@@ -34,6 +39,16 @@ namespace console2
             client.SetBearerToken(response.AccessToken);
 
             Console.WriteLine(client.GetStringAsync("http://localhost:53118/test").Result);
+        }
+
+        static TokenResponse GetUserToken()
+        {
+            var client = new TokenClient(
+                "http://localhost:5000/connect/token",
+                "carbon",
+                "21B5F798-BE55-42BC-8AA8-0025B903DC3B");
+
+            return client.RequestResourceOwnerPasswordAsync("bob", "secret", "api1").Result;
         }
     }
 }
