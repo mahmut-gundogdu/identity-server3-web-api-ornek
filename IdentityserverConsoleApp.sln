@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityserverConsoleApp", "IdentityserverConsoleApp\IdentityserverConsoleApp.csproj", "{E51B763D-E530-4243-87D8-416EF0ED249E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerWebApi2", "..\IdentityServerWebApi2\IdentityServerWebApi2\IdentityServerWebApi2.csproj", "{DC7CB99C-89D8-4FDD-975F-5E255480B920}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerWebApi2", "IdentityServerWebApi2\IdentityServerWebApi2.csproj", "{DC7CB99C-89D8-4FDD-975F-5E255480B920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEtmekicin", "..\console2\console2\TestEtmekicin.csproj", "{97519A5B-83C2-400E-8EC7-76B3D5C4F2FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEtmekicin", "console2\TestEtmekicin.csproj", "{97519A5B-83C2-400E-8EC7-76B3D5C4F2FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
